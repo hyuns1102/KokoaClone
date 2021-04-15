@@ -1,0 +1,34 @@
+#friends-display-link {
+  /* text-align: center;
+  display: block; nomad's code*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  background-color: #fafafa;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#friends-display-link i {
+  margin: 0px 5px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  padding: 0px var(--horzontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: solid 1px #afabab;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #afabab;
+}

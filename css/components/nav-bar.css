@@ -4,11 +4,39 @@
   width: 100%;
   background-color: #f9f9fa;
   padding: 20px 50px;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   border-top: 1px solid rgba(128, 128, 128, 0.2);
 }
+
 .nav__list {
-  color: #2f363e;
   display: flex;
   justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2f363e;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+}
+
+.nav__notification--not-Numb {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  left: 24px;
+  bottom: 15px;
 }
