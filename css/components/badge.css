@@ -1,0 +1,22 @@
+.badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+}
+
+/* by hyunsoo */
+.badge-noNumb {
+  position: absolute;
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  bottom: 20px;
+  left: 25px;
+}

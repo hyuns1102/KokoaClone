@@ -3,12 +3,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .user-component__avatar {
   object-fit: cover;
   border-radius: 25px;
   margin-right: 20px;
+  width: 60px;
+  height: 60px;
 }
 
 .user-component__title {
@@ -22,13 +25,14 @@
 }
 
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 
 .user-component__avatar--sm {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
 }
 
 .user-component__title--not-bold {
@@ -37,4 +41,12 @@
 
 .user-component__column:last-child {
   color: #afabab;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
 }
