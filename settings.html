@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - KoKoa Talk</title>
+    <title>Settings - KoKoa Talk</title>
   </head>
 
   <body>
@@ -25,38 +25,43 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
+    <header class="alt-header">
+      <div class="alt-header-column">
+        <a href="more.html"> <i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header-column">
+        <h4 class="alt-header-title">Settings</h4>
+      </div>
+      <div class="alt-header-column">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
-
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar"
-              src="screenshot/resume.jpg"
-              alt="No Image"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">hyunsoo</h4>
-              <h6 class="user-component__subtitle">
-                Please Check my Kokoa account Info
-              </h6>
-            </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kokoa Lab</span>
           </div>
-        </div>
-      </a>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Lasted Version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -69,7 +74,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comments fa-lg"></i>
+            <i class="far fa-comments fa-lg"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -79,7 +84,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <span class="nav__notification badge-noNumb"></span>
+            <span class="badge-noNumb"></span>
             <i class="fas fa-ellipsis-h fa-lg"></i>
           </a>
         </li>
