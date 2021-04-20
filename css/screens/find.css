@@ -95,3 +95,25 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+@keyframes heartBeatAnimation {
+  0% {
+    /* transform: scale(100px); */
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+    /* transform: none; */
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count .fa-heart:hover {
+  will-change: transform;
+  animation: heartBeatAnimation 1s ease-in-out infinite;
+}
